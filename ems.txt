@@ -1,0 +1,23 @@
+Code for Interview
+
+Employee Management System (Java Project)
+
+
+Execute these queries one bye one in your MySQL.
+
+1 - create database with name project
+
+create database project;
+
+2 - use database you have just created
+
+use project;
+
+3 - Start creating tables inside the database, project, create login table first
+
+create table login(username varchar(20), password varchar(20));
+
+4 - create employee table to store the information of employees
+
+create table employee(name varchar(25), fname varchar(30), age varchar(10), dob varchar(20), address varchar(50),
+ phone varchar(20), email varchar(30), education varchar(15), post varchar(15), aadhar varchar(20), emp_id varchar(10));
